@@ -20,6 +20,16 @@ const routes = [
     name: 'contact',
     component: Contact,
   },
+  {
+    path: '/basic',
+    name: 'basic',
+    component: () => import('../views/BasicView.vue'),
+  },
+  {
+    path: '/databinding',
+    name: 'dataBinding',
+    component: () => import('../views/DataBinding.vue'),
+  },
 ];
 
 const router = createRouter({

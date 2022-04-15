@@ -4,7 +4,8 @@
     <p>{{ valueTxtModel }}</p>
     <input type="number" v-model.number="valueNumModel" />
     <p>{{ valueNumModel }}</p>
-    <textarea>Hello</textarea>
+    <textarea v-model="valueAreaModel"></textarea>
+    <p>{{ valueAreaModel }}</p>
   </div>
 </template>
 <script>
@@ -15,6 +16,7 @@ export default {
     return {
       valueTxtModel: 'ice cream',
       valueNumModel: 0,
+      valueAreaModel: 'Hello',
     };
   },
   setup() {},

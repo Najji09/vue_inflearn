@@ -40,6 +40,11 @@ const routes = [
     name: 'inputBinding',
     component: () => import('../views/InputBinding.vue'),
   },
+  {
+    path: '/selectBinding',
+    name: 'selectBinding',
+    component: () => import('../views/SelectBinding.vue'),
+  },
 ];
 
 const router = createRouter({

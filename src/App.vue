@@ -7,6 +7,7 @@
     <router-link to="/databinding">Data Binding</router-link> |
     <router-link to="/databindinghtml">Data binding html</router-link> |
     <router-link to="/inputbinding">Input Binding</router-link> |
+    <router-link to="/selectbinding">Select Binding</router-link> |
   </nav>
   <router-view />
 </template>

@@ -3,8 +3,10 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/contact">Contact</router-link> |
-    <router-link to="/basic">Basic</router-link>
-    <router-link to="/databinding">Data Binding</router-link>
+    <router-link to="/basic">Basic</router-link> |
+    <router-link to="/databinding">Data Binding</router-link> |
+    <router-link to="/databindinghtml">Data binding html</router-link> |
+    <router-link to="/inputbinding">Input Binding</router-link> |
   </nav>
   <router-view />
 </template>

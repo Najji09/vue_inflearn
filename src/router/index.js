@@ -30,6 +30,16 @@ const routes = [
     name: 'dataBinding',
     component: () => import('../views/DataBinding.vue'),
   },
+  {
+    path: '/databindinghtml',
+    name: 'dataBindingHtml',
+    component: () => import('../views/DataBindingHtml.vue'),
+  },
+  {
+    path: '/inputBinding',
+    name: 'inputBinding',
+    component: () => import('../views/InputBinding.vue'),
+  },
 ];
 
 const router = createRouter({

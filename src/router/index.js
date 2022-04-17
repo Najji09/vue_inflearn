@@ -60,6 +60,26 @@ const routes = [
     name: 'listRending',
     component: () => import('../views/ListRendering.vue'),
   },
+  {
+    path: '/renderingGrammer',
+    name: 'renderingGrammer',
+    component: () => import('../views/RenderingGrammer.vue'),
+  },
+  {
+    path: '/event',
+    name: 'eventVue',
+    component: () => import('../views/EventVue.vue'),
+  },
+  {
+    path: '/computed',
+    name: 'computedVue',
+    component: () => import('../views/ComputedVue.vue'),
+  },
+  {
+    path: '/watch',
+    name: 'watchVue',
+    component: () => import('../views/WatchVue.vue'),
+  },
 ];
 
 const router = createRouter({

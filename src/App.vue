@@ -11,6 +11,10 @@
     <router-link to="/attrbinding">Attribute Binding</router-link> |
     <router-link to="/classBinding">class/style Binding</router-link> |
     <router-link to="/listrendering">List Rendering</router-link> |
+    <router-link to="/renderinggrammer">Rendering Grammer</router-link> |
+    <router-link to="/event">Event</router-link> |
+    <router-link to="/computed">Computed</router-link> |
+    <router-link to="/watch">Watch</router-link> |
   </nav>
   <router-view />
 </template>

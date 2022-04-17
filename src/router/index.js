@@ -45,6 +45,21 @@ const routes = [
     name: 'selectBinding',
     component: () => import('../views/SelectBinding.vue'),
   },
+  {
+    path: '/attrBinding',
+    name: 'attrBinding',
+    component: () => import('../views/AttrBinding.vue'),
+  },
+  {
+    path: '/classBinding',
+    name: 'classBinding',
+    component: () => import('../views/ClassBinding.vue'),
+  },
+  {
+    path: '/listRendering',
+    name: 'listRending',
+    component: () => import('../views/ListRendering.vue'),
+  },
 ];
 
 const router = createRouter({

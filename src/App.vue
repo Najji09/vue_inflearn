@@ -8,6 +8,9 @@
     <router-link to="/databindinghtml">Data binding html</router-link> |
     <router-link to="/inputbinding">Input Binding</router-link> |
     <router-link to="/selectbinding">Select Binding</router-link> |
+    <router-link to="/attrbinding">Attribute Binding</router-link> |
+    <router-link to="/classBinding">class/style Binding</router-link> |
+    <router-link to="/listrendering">List Rendering</router-link> |
   </nav>
   <router-view />
 </template>
